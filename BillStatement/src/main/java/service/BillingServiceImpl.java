@@ -16,5 +16,6 @@ public class BillingServiceImpl{
 		double savings = cart.calculateTotalPrice() - totalAmount;
 		System.out.printf("Total Amount\t%.2f Rs\n", totalAmount);
 		System.out.printf("You saved\t%.2f Rs\n", savings);
+		System.out.printf("HI JENKINS", savings);
 	}
 }
